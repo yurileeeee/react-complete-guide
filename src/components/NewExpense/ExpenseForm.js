@@ -2,6 +2,7 @@ import React from 'react';
 
 import './ExpenseForm.css';
 
+// 새로운 비용 입력 폼 관리
 const ExpenseForm = () => {
   return (
     <form>
