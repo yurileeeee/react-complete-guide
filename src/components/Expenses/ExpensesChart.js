@@ -2,6 +2,7 @@ import React from 'react';
 
 import Chart from '../Chart/Chart';
 
+//* 차트 데이터 계산 후 <Chart>에 전달해주는 기능
 const ExpensesChart = (props) => {
   const chartDataPoints = [
     { label: 'Jan', value: 0 },

@@ -2,6 +2,7 @@ import React from 'react';
 
 import './ChartBar.css';
 
+//* 하나의 차트 막대 관리
 const ChartBar = (props) => {
   let barFillHeight = '0%';
 

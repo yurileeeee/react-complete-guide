@@ -2,6 +2,7 @@ import React from 'react';
 
 import './ExpensesFilter.css';
 
+//* 비용을 연도별로 필터링
 const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (e) => {
     props.onChangeFilter(e.target.value);

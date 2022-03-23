@@ -4,7 +4,7 @@ import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
-// 비용 아이템 세부사항 관리
+//* 비용 아이템 세부사항 관리
 const ExpenseItem = (props) => {
   return (
     <Card className='expense-item'>

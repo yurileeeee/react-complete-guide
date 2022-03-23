@@ -1,6 +1,6 @@
 import './ExpenseDate.css';
 
-// 비용 아이템 중 날짜 관리
+//* 비용 아이템 중 날짜 관리
 const ExpenseDate = (props) => {
   const month = props.date.toLocaleString('en-US', { month: 'long' });
   const year = props.date.getFullYear();

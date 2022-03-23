@@ -6,7 +6,7 @@ import ExpensesList from './ExpensesList';
 import ExpensesChart from './ExpensesChart';
 import './Expenses.css';
 
-// 비용 목록 관리
+//* 비용 목록 관리
 const Expenses = (props) => {
   const [filteredYear, setFilteredYear] = useState('2020');
 
